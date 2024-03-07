@@ -43,14 +43,9 @@ async function generateSVG() {
         return;
     }
 
-    const newShapeClass = new ShapeClass(shapeColor);
+    const newShapeClass = new ShapeClass(shapeColor, text, textColor);
 
-    const svgMarkup = `
-        <svg width='300' height='200'>
-            ${newShapeClass.createShape()}
-            <text x='150' y='105' fill='${textColor}'>${text}</text>
-        </svg>
-    `;
+    const svgMarkup = `<svg width='300' height='200'>\n  ${newShapeClass.createShape()}\n</svg>`;
 
     fs.writeFileSync('./examples/logo.svg', svgMarkup);
     console.log('Generated logo.svg');
