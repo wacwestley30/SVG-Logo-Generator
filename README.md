@@ -4,8 +4,7 @@
 
 ## Description
 
-This project uses Node.js, Inquirer, Jest, asyncronous functions and Classes to        
-generate SVG logos. This app can generate logos up to 3 characters long with a choice for which shape the logo will generate. The logo generated is 300x200 pixels in size.
+This project uses Node.js, Inquirer, Jest, asyncronous functions and Classes to generate SVG logos. This app can generate logos up to 3 characters long with a choice for which shape the logo will generate. The logo generated is 300x200 pixels in size.
 
 ## Table of Contents
 
@@ -17,12 +16,13 @@ generate SVG logos. This app can generate logos up to 3 characters long with a c
 
 ## Installation
 
-Start by running `npm i` to install any dependancies such as inquirer and jest.
+Start by running `npm i` to install any dependencies such as inquirer and jest.
 
 ## Usage
 
-After installing, run `node index.js` to start the application within the terminal. A 
-series of questions will help guide the successful generation of the logo. 
+After installing, run `node index.js` to start the application within the terminal. A series of questions will help guide the successful generation of the logo.
+
+https://drive.google.com/file/d/1vZN-_739k4WevTs1n8iqfHb2HgiDf5nw/view?usp=drive_link
 
 ## License
 
