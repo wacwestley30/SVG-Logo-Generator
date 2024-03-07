@@ -52,3 +52,5 @@ async function generateSVG() {
 }
 
 generateSVG();
+
+module.exports = { generateSVG };
